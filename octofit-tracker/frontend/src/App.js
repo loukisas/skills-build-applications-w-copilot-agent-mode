@@ -6,17 +6,17 @@ import Teams from './components/Teams';
 import Users from './components/Users';
 import Workouts from './components/Workouts';
 
-import logo from './logo.svg'; // Replace with octofitapp-small logo if available
+import octofitLogo from './octofitapp-small.svg';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary octofit-navbar">
           <div className="container-fluid">
             <Link className="navbar-brand d-flex align-items-center" to="/">
-              <img src={logo} alt="OctoFit Logo" width="40" height="40" className="me-2" />
-              OctoFit Tracker
+              <img src={octofitLogo} alt="OctoFit Logo" width="40" height="40" className="octofit-logo me-2" />
+              <span className="octofit-title">OctoFit Tracker</span>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
