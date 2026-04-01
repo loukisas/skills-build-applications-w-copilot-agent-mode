@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'djongo',
     'corsheaders',
     'octofit_tracker',
+    # 'djong',  # This line is being removed
 ]
 
 MIDDLEWARE = [
